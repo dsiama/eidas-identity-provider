@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EIDAS-IdP-1.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/config/embedded"/>
+        <dependent-module archiveName="eidas-commons-1.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EIDAS-Commons/EIDAS-Commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eidas-light-commons-1.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EIDAS-Light-Commons/EIDAS-Light-Commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eidas-saml-engine-1.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EIDAS-SAMLEngine/EIDAS-SAMLEngine">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eidas-encryption-1.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EIDAS-Encryption/EIDAS-Encryption">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eidas-configmodule-1.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EIDAS-ConfigModule/EIDAS-ConfigModule">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="IdP"/>
+        <property name="java-output-path" value="/EIDAS-IdP-1.0/target/classes"/>
+    </wb-module>
+</project-modules>
